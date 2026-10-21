@@ -4,10 +4,10 @@ spring:
       server:
         webmvc:
           routes:
-            - id: order-service
-              uri: lb://ORDER-SERVICE
+            - id: product-service
+              uri: lb://PRODUCT-SERVICE
               predicates:
-                - Path=/api/v1/order/**
+                - Path=/api/v1/product/**
 
   datasource:
     url: jdbc:postgresql://localhost:5432/microservice

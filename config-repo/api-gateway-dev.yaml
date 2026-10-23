@@ -38,5 +38,7 @@ eureka:
 logging:
   level:
     org.springframework.security: TRACE
-    org.springframework.cloud.gateway: DEBUG
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.web: DEBUG
+    org.springframework.cloud.loadbalancer: DEBUG
       
